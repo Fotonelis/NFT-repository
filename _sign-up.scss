@@ -1,0 +1,13 @@
+@use "variables";
+
+.sign-up {
+  text-align: center;
+  background-color: variables.$color-black;
+  color: variables.$color-white;
+  font-weight: 600;
+  width: 86px;
+  border: solid variables.$color-magenta;
+  border-radius: 30px;
+  padding: 10px 10px;
+  font-size: variables.$font-2;
+}

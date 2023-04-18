@@ -1,0 +1,43 @@
+@use "variables";
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.footer-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 25%;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.footer-nav-elem {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-elem a {
+  padding: 5px;
+}
+
+.footer-botom {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0px 33px 0px;
+}
+
+.footer-botom p {
+  font-size: variables.$font-2;
+  color: variables.$color-grey;
+}

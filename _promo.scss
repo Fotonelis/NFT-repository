@@ -1,0 +1,21 @@
+@use "variables";
+
+.promo-offer h1 {
+  font-weight: 500;
+}
+
+.promo-offer h1 {
+  margin-bottom: 12px;
+  font-size: variables.$font-3;
+}
+
+.promo-offer {
+  background-image: url("Img/background.png");
+  background-size: 100%;
+  margin-bottom: 55px;
+  border-radius: 10px;
+}
+
+.promo-offer {
+  padding: 69px 272px 29px 29px;
+}

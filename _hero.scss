@@ -1,0 +1,24 @@
+@use "variables";
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-size: variables.$font-4;
+  line-height: 53px;
+  font-weight: 900;
+  margin: 10px 0px 15px 0px;
+}
+
+.hero h2 {
+  font-size: variables.$font-1;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-text {
+  word-wrap: break-word;
+}

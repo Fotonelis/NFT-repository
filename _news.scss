@@ -1,0 +1,31 @@
+@use "variables";
+
+.news {
+  display: flex;
+  border: solid 0.5px variables.$color-grey;
+  border-left: none;
+  border-right: none;
+  padding-top: 39px;
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.news-text h1 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.news h2 {
+  font-size: variables.$font-1;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.news img {
+  margin-left: 92px;
+}

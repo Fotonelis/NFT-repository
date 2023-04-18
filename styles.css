@@ -1,0 +1,234 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  justify-self: center;
+  margin: 36px 32px;
+}
+
+p:first-of-type {
+  font-size: 0.5em;
+  font-weight: 400;
+  color: #cccccc;
+  margin-bottom: 18px;
+  line-height: 14px;
+}
+p:nth-of-type(2) {
+  color: white;
+  font-weight: 400;
+}
+p:nth-of-type(3) {
+  color: #cccccc;
+  line-height: 15px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+p:nth-of-type(4) {
+  color: #cccccc;
+  line-height: 15px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: white;
+}
+h1:first-of-type {
+  font-size: 0.5em;
+  font-weight: 400;
+  color: #cccccc;
+  margin-bottom: 18px;
+  line-height: 14px;
+}
+h1:nth-of-type(2) {
+  color: white;
+  font-weight: 400;
+}
+h1:nth-of-type(3) {
+  color: #cccccc;
+  line-height: 15px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+h1:nth-of-type(4) {
+  color: #cccccc;
+  line-height: 15px;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #ff3998;
+}
+
+a {
+  color: white;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 90px;
+  height: 16px;
+}
+
+header a {
+  font-size: 9px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-size: 43px;
+  line-height: 53px;
+  font-weight: 900;
+  margin: 10px 0px 15px 0px;
+}
+
+.hero h2 {
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-text {
+  word-wrap: break-word;
+}
+
+.sign-up {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  width: 86px;
+  border: solid #ff3998;
+  border-radius: 30px;
+  padding: 10px 10px;
+  font-size: 9px;
+}
+
+.promo-offer h1 {
+  font-weight: 500;
+}
+
+.promo-offer h1 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.promo-offer {
+  background-image: url("Img/background.png");
+  background-size: 100%;
+  margin-bottom: 55px;
+  border-radius: 10px;
+}
+
+.promo-offer {
+  padding: 69px 272px 29px 29px;
+}
+
+.auction {
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+
+.auction h1 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.nft-elements {
+  display: flex;
+  gap: 18px;
+}
+
+.news {
+  display: flex;
+  border: solid 0.5px #cccccc;
+  border-left: none;
+  border-right: none;
+  padding-top: 39px;
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.news-text h1 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.news h2 {
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.news img {
+  margin-left: 92px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.footer-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 25%;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.footer-nav-elem {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-elem a {
+  padding: 5px;
+}
+
+.footer-botom {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0px 33px 0px;
+}
+
+.footer-botom p {
+  font-size: 9px;
+  color: #cccccc;
+}/*# sourceMappingURL=styles.css.map */

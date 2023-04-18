@@ -1,0 +1,95 @@
+@use "variables";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: variables.$color-black;
+  color: variables.$color-white;
+  justify-self: center;
+  margin: 36px variables.$spacing-4;
+}
+
+p {
+  &:first-of-type {
+    font-size: 0.5em;
+    font-weight: 400;
+    color: variables.$color-grey;
+    margin-bottom: variables.$spacing-3;
+    line-height: 14px;
+  }
+  &:nth-of-type(2) {
+    color: variables.$color-white;
+    font-weight: 400;
+  }
+  &:nth-of-type(3) {
+    color: variables.$color-grey;
+    line-height: variables.$spacing-2;
+    margin-top: variables.$spacing-1;
+    margin-bottom: 25px;
+  }
+  &:nth-of-type(4) {
+    color: variables.$color-grey;
+    line-height: variables.$spacing-2;
+    margin-top: variables.$spacing-1;
+    margin-bottom: 25px;
+  }
+}
+
+h1 {
+  color: variables.$color-white;
+  &:first-of-type {
+    font-size: 0.5em;
+    font-weight: 400;
+    color: variables.$color-grey;
+    margin-bottom: variables.$spacing-3;
+    line-height: 14px;
+  }
+  &:nth-of-type(2) {
+    color: variables.$color-white;
+    font-weight: 400;
+  }
+  &:nth-of-type(3) {
+    color: variables.$color-grey;
+    line-height: variables.$spacing-2;
+    margin-top: variables.$spacing-1;
+    margin-bottom: 25px;
+  }
+  &:nth-of-type(4) {
+    color: variables.$color-grey;
+    line-height: variables.$spacing-2;
+    margin-top: variables.$spacing-1;
+    margin-bottom: 25px;
+  }
+}
+
+h2 {
+  color: variables.$color-magenta;
+}
+
+a {
+  color: variables.$color-white;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 90px;
+  height: 16px;
+}
+
+header a {
+  font-size: 9px;
+}

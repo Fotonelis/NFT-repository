@@ -1,0 +1,16 @@
+@use "variables";
+.auction {
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+
+.auction h1 {
+  font-size: variables.$font-3;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.nft-elements {
+  display: flex;
+  gap: variables.$spacing-3;
+}
